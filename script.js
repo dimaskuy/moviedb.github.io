@@ -149,7 +149,7 @@ function errorMovieCards() {
 function loading() {
   return `
     <div class="row text-center justify-content-center">
-      <img src="svg/bars.svg" alt="" class="d-block img-fluid svg-img">
+      <img src="bars.svg" alt="" class="d-block img-fluid svg-img">
     </div>
   `
 }
@@ -157,7 +157,7 @@ function loading() {
 function errorAPI(error) {
   return `<div class="col text-center justify-content-center">
       <p class="font-weight-bold" style="opacity:0.8">${error}</p>
-      <img src="svg/undraw_empty_xct9.svg" class="d-block mx-auto svg-img2">
+      <img src="undraw_empty_xct9.svg" class="d-block mx-auto svg-img2">
     </div>`;
 }
 
